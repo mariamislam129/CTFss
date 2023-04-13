@@ -1,0 +1,49 @@
+• CTF name: Guess The Password
+
+      • Challenge category:Cyber Talents
+
+         • Challenge description: 
+                Step 1: we will find a hash in the challenge the first thing you need to know is th hash type.
+                Step 2: search online for a Hash Analyzer 
+                Step 3: we will find that its a SHA1 hash
+                Step 4: after Decrypting it from an online SHA1 we will find that the password is jrahyn+
+                
+                
+ • CTF name:Who Am I
+      • Challenge category:Cyber Talents
+       • Challenge description: 
+                Step 1: click on start challenge and wait for it to load
+                Step 2: click on the link and before you put your username an password open burp suite and view source code
+                Step 3: in the source code you will find username and password so enter them
+                Step 4: find the cookie  of authentication and here is the flag >> FLag{B@D_4uTh1Nt1C4Ti0n}
+                
+                
+ • CTF name: keep it simple
+
+      • Challenge category:Cyber Talents
+
+         • Challenge description:
+                Step 1: after opening the website we will find a photo of eyes click on it
+                Step 2: download the photo 
+                Step 3: use exiftool : exiftool the_eye.jpeg     and try to find anything susbitious
+                Step 4: in the copyright notice you will find the flag : {S1mpl3sty_i$th@nswer} 
+    
+     • CTF name: ceaser cipher
+
+      • Challenge category:Cyber Talents
+
+         • Challenge description:
+                Step 1: after opening the challenge we will find an encrypted text gur synt vf 2w68lsudym Vg vf cerggl rnfl gb frr                         gur synt ohg pna lbh frr vg v gbbx arneyl 1 zvahgr gb rapbqr guvf jvgu EBG13 tbbq yhpx va fbyivat gun
+                Step 2: then go to an online decoder https://www.dcode.fr/caesar-cipher 
+                Step 3: after decode it the flag is 2j68yfhqlz It is pretty easy to see the flag but can you see it i took nearly                     1 minute to encode this with ROT13 good luck in solving that
+                Step 4: the flag will be 2j68yfhqlz
+             
+             
+ •  Challenge name : SQL Injection » Easy access
+      • Challenge category:Cyber Talents
+step 1: first you find a login page 
+step 2: i viewed the page source and i found Credentials "bob" and "password" i found this message "Only admin can see the flag"
+step 3:i tried to inject in username = "admin' OR 1=1#" and any password (# for commenting  the rest query(password) )
+step 4: i found the flag "flag{!njection_3v3ry_wh3r3}"
+             
+                
